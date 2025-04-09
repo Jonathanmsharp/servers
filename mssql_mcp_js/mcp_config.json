@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "commands": {
+    "query": {
+      "description": "Execute a SQL query",
+      "parameters": {
+        "query": "string",
+        "params": "array"
+      }
+    },
+    "execute": {
+      "description": "Execute a SQL command (INSERT, UPDATE, DELETE)",
+      "parameters": {
+        "sql": "string",
+        "params": "array"
+      }
+    }
+  }
+}
